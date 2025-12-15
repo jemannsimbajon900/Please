@@ -46,6 +46,13 @@ nav ul li.active {
   font-weight: bold;
 }
 
+nav ul li.active a {
+  font-weight: bold;
+  color: #fff; /* Adjust as needed */
+  background-color: #444; /* Highlight color for active tab */
+}
+
+
 /* Main content */
 main {
   padding: 40px;
@@ -115,3 +122,4 @@ footer {
   padding: 20px;
   background-color: #1c1c1c;
 }
+
